@@ -1,0 +1,29 @@
+{
+  "name": "kudi-point",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Kudi Point — Cycle III Nimiq Pay Mini App for Nigeria cash in/out (On/Off-Ramp).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite --host --port 43173",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host --port 43173"
+  },
+  "dependencies": {
+    "@nimiq/mini-app-sdk": "^0.2.4",
+    "viem": "^2.57.12",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.5",
+    "vue-tsc": "^3.3.13"
+  }
+}
